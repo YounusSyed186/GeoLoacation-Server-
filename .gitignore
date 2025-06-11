@@ -1,0 +1,41 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production artifacts
+/build
+/dist
+/tmp
+
+# environment variables
+.env
+.env.*
+.env.local
+
+# npm package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm/
+.eslintcache
+
+# application logs
+/logs/*.log # If your app writes logs to a 'logs' directory
+/uploads/   # If your app handles user file uploads
+
+# macOS specific
+.DS_Store
+
+# VS Code specific
+.vscode/
+
+# Editor/IDE files
+.idea/ # IntelliJ IDEA / WebStorm
+*.iml # IntelliJ IDEA
+.history/ # VS Code Local History
+
+# misc
+*.log
